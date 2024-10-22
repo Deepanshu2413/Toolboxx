@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Bookingpage from './bookingpage';
+import Book from './Book';
 
 
 function Home() {
@@ -10,9 +12,11 @@ function Home() {
             <div className="container mx-auto text-center">
               <h1 className="text-4xl font-bold mb-4">Find Trusted Plumbers, Electricians & More!</h1>
               <p className="text-xl mb-6">Get help from verified professionals for all your home service needs.</p>
-              <button className="bg-white text-blue-500 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-blue-100">
-                Book a Service Now
-              </button>
+              <Link to="/Book">
+                <button className="bg-white text-blue-500 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-blue-100">
+                  Book a Service Now
+                </button>
+              </Link>
             </div>
           </section>
     
@@ -80,7 +84,11 @@ function Home() {
       <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-600">{description}</p>
+        
+        <Link to="/Book">
         <button className="mt-4 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">Book Now</button>
+        </Link>
+
       </div>
     );
     

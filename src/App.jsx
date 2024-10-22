@@ -5,9 +5,11 @@ import About from './components/about';
 import NavBar from './components/navbar';
 import Services from './components/services'; 
 import Contact from './components/contact';
-import Workercard from './components/Workercard';
-import Singup from './components/singup';
 
+import Singup from './components/singup';
+import Bookingpage from './components/bookingpage';
+import Footer from './components/footer';
+import Book from './components/Book';
 
 function App() {
   return (
@@ -21,14 +23,16 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Workercard" element={<Workercard />} />
+        <Route path="/bookingpage" element={<Bookingpage/>} />
         <Route path="/Singup" element={<Singup/>} />
+        <Route path="/Book" element={<Book />} />
 
-    
-        
       </Routes>
+      
+      
     </Router>
-    
+   
+    <Footer/>
     </>
   );
 }
