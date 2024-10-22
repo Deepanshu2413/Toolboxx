@@ -35,7 +35,7 @@ function Services() {
         profession="Home Cleaner"                     // Pass the profession
         imageUrl="https://via.placeholder.com/150" // Pass the profile image URL
         rating={1}                               // Pass the rating (out of 5)
-        description="Aprita is highly skilled and punctual in wasting time and your precious money" // Pass a short description
+        description="Jonny is highly skilled and punctual in Doing their work" // Pass a short description
       />
       
       </div>
