@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { useState } from 'react';
 
-const bookingpage = () => {
+const Bookingpage = () => {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -156,4 +156,4 @@ const bookingpage = () => {
 
 
 
-export default bookingpage
+export default Bookingpage

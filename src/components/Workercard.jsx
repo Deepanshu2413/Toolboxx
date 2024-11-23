@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 
 
-const WorkerCard = ({ name, profession, imageUrl, rating, description }) => {
+const Workercard = ({ name, profession, imageUrl, rating, description }) => {
   // Helper function to render the star rating
   const renderStars = (rating) => {
     const stars = [];
@@ -46,4 +46,4 @@ const WorkerCard = ({ name, profession, imageUrl, rating, description }) => {
   );
 };
 
-export default WorkerCard;
+export default Workercard;

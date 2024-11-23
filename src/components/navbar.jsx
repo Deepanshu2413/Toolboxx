@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import  { useState } from 'react';
 import myImage from './logo.jpg'
 
-const NavBar = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -59,4 +59,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
