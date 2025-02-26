@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
-function Singup () {
+function Signup () {
     const [formData, setFormData] = useState({
       name: '',
       email: '',
@@ -74,4 +74,4 @@ function Singup () {
     );
   };
 
-export default Singup;
+export default Signup;

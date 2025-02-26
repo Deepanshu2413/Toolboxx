@@ -5,8 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    eextend: {
+      fontFamily: {
+        josefin: ["Josefin Sans", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
+
 
