@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./components/home";
-import About from "./components/about";
-import Services from "./components/services";
-import Contact from "./components/contact";
+import Home from "./components/Home";
+import About from "./components/About";
+import Services from './components/Services';
+import Contact from "./components/Contact";
 import Signup from "./components/Signup";
-import Bookingpage from "./components/bookingpage";
+import Bookingpage from "./components/Bookingpage";
 import Book from "./components/Book";
-import NavBar from "./components/navbar";
+import NavBar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 function App() {
