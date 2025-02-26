@@ -30,10 +30,10 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div className={`absolute md:static bg-blue-500 md:bg-transparent w-full md:w-auto left-0 top-16 p-4 md:p-0 md:flex items-center space-x-6 transition-all duration-300 ${isOpen ? 'block' : 'hidden md:flex'}`}>
           <Link to="/" className="text-white hover:text-gray-300">Home</Link>
-          <Link to="/services" className="text-white hover:text-gray-300">Services</Link>
-          <Link to="/about" className="text-white hover:text-gray-300">About Us</Link>
-          <Link to="/contact" className="text-white hover:text-gray-300">Contact</Link>
-          <Link to="/signup" className="bg-white text-blue-500 px-4 py-2 rounded-md hover:bg-gray-100">
+          <Link to="/Services" className="text-white hover:text-gray-300">Services</Link>
+          <Link to="/About" className="text-white hover:text-gray-300">About Us</Link>
+          <Link to="/Contact" className="text-white hover:text-gray-300">Contact</Link>
+          <Link to="/Signup" className="bg-white text-blue-500 px-4 py-2 rounded-md hover:bg-gray-100">
             Login/Register
           </Link>
         </div>
