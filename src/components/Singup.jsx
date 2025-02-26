@@ -74,4 +74,4 @@ function Singup () {
     );
   };
 
-export default Singup
+export default Singup;

@@ -77,10 +77,10 @@ function Contact() {
             <strong>Email:</strong> support@homeservices.com
           </p>
           <p className="text-gray-600">
-            <strong>Phone:</strong> +1-234-567-8900
+            <strong>Phone:</strong> +91-9845678900
           </p>
           <p className="text-gray-600">
-            <strong>Address:</strong> 123 HomeServices Street, City, Country
+            <strong>Address:</strong> xyz building , Punjab , IND
           </p>
         </div>
       </div>
@@ -93,4 +93,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Contact;
